@@ -18,7 +18,7 @@ from tqdm import tqdm
 from bs4 import BeautifulSoup
 
 # --- Config ---
-BASE_URL = os.getenv("EMB_URL", "https://p950-w002-runai-p950.runai-inference.dc.uz/v1/")
+BASE_URL = os.getenv("EMB_URL", "")
 API_KEY = os.getenv("EMB_API_KEY", "")
 EMBED_MODEL = "nvidia/llama-embed-nemotron-8b"
 
