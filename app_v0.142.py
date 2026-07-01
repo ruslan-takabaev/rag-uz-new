@@ -12,11 +12,11 @@ from datetime import datetime
 from pathlib import Path
 
 # --- Config ---
-EMB_BASE_URL = os.getenv("EMB_API_URL", "https://p950-w002-runai-p950.runai-inference.dc.uz/v1/")
+EMB_BASE_URL = os.getenv("EMB_API_URL", "")
 EMB_MODEL = "nvidia/llama-embed-nemotron-8b"
 EMB_API_KEY = os.getenv("EMB_API_KEY", "")
 
-LLM_BASE_URL = os.getenv("LLM_API_URL", "https://p950-w006x-runai-p950.runai-inference.dc.uz/v1/")
+LLM_BASE_URL = os.getenv("LLM_API_URL", "")
 LLM_MODEL = "openai/gpt-oss-120b"
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 
